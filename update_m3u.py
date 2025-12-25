@@ -2,6 +2,7 @@ import requests
 import time
 import re
 import os
+from datetime import datetime, timedelta
 
 # --- 配置区 ---
 SOURCES_URLS = [
@@ -17,54 +18,38 @@ def clean_name(name):
     return name
 
 def check_720p_and_speed(url):
-    """
-    不仅测速，还深度检查是否符合 720P 分辨率
-    返回 (得分, 延迟)
-    """
     try:
-        if "[" in url: return 9999, 9999 # 过滤 IPv6
-        
+        if "[" in url: return 9999, 9999
         start = time.time()
-        # 1. 第一阶段：基础连通性测试 (0.5秒快速过滤)
         r = requests.get(url, timeout=0.8, stream=True)
         if r.status_code == 200:
             delay = int((time.time() - start) * 1000)
-            
-            # 2. 第二阶段：读取 m3u8 前几行检查分辨率
-            # 很多优质源会在 m3u8 内部标注 RESOLUTION=1280x720
             sample = r.iter_lines()
             found_720p = False
-            # 检查前 20 行即可
-            for _ in range(20):
+            for _ in range(15):
                 line = next(sample).decode('utf-8', errors='ignore').upper()
                 if "1280X720" in line:
                     found_720p = True
                     break
-            
-            # 3. 计分逻辑
-            score = delay
-            if found_720p:
-                score -= 1000 # 命中 720P 的源权重极大，优先选择
-            elif "1920X1080" in line:
-                score += 500  # 如果是 1080P，稍微靠后（因为你要求 720P）
-            
+            score = delay - 1000 if found_720p else delay
             return score, delay
     except:
         pass
     return 9999, 9999
 
 def main():
-    print("🚀 启动 720P 专项优选任务...")
+    # 获取当前北京时间 (GitHub Action 默认是 UTC，需要 +8 小时)
+    bj_time = (datetime.utcnow() + timedelta(hours=8)).strftime('%Y-%m-%d %H:%M:%S')
+    print(f"🚀 启动优选任务，当前时间：{bj_time}")
+
     pool = {}
     for s_url in SOURCES_URLS:
         try:
             r = requests.get(s_url, timeout=10)
-            r.encoding = 'utf-8'
             lines = r.text.splitlines()
             for i in range(len(lines)):
                 if lines[i].startswith("#EXTINF"):
-                    raw_name = lines[i].split(",")[-1].strip()
-                    c_name = clean_name(raw_name)
+                    c_name = clean_name(lines[i].split(",")[-1].strip())
                     link = lines[i+1].strip()
                     if link.startswith("http"):
                         if c_name not in pool: pool[c_name] = []
@@ -82,39 +67,46 @@ def main():
     while i < len(lines):
         line = lines[i].strip()
         if line.startswith("#EXTINF"):
-            my_clean_name = clean_name(line.split(",")[-1].strip())
+            my_raw_name = line.split(",")[-1].strip()
+            my_clean_name = clean_name(my_raw_name)
             
             if my_clean_name in pool:
                 urls = list(set(pool[my_clean_name]))
                 best_url = None
-                min_score = 9000 # 初始分
+                min_score = 9000
                 
                 for u in urls:
                     score, delay = check_720p_and_speed(u)
                     if score < min_score:
                         min_score = score
                         best_url = u
-                    if score < -500: # 只要是 720P 且延迟尚可，就直接过
-                        break
+                    if score < -500: break
                 
                 if best_url:
                     final_output.append(line)
                     final_output.append(best_url)
+                    # 在链接下方插入一行更新时间注释
+                    final_output.append(f"# 更新时间：{bj_time}")
                     update_count += 1
                     i += 1
-                    while i + 1 < len(lines) and (lines[i+1].strip().startswith("http") or not lines[i+1].strip()):
-                        i += 1
+                    # 跳过旧链接和旧的时间戳注释
+                    while i + 1 < len(lines):
+                        next_l = lines[i+1].strip()
+                        if next_l.startswith("http") or next_l.startswith("# 更新时间") or not next_l:
+                            i += 1
+                        else:
+                            break
                 else:
                     final_output.append(line)
             else:
                 final_output.append(line)
-        elif line:
+        elif line and not line.startswith("# 更新时间"):
             final_output.append(line)
         i += 1
 
     with open("TWTV.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(final_output))
-    print(f"✨ 720P 优选完成！共更新 {update_count} 个频道。")
+    print(f"✨ 优选完成！已更新 {update_count} 个频道的时间戳。")
 
 if __name__ == "__main__":
     main()
