@@ -1,0 +1,23 @@
+name: IPTV_Auto_Update
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install requests
+      - run: python update_m3u.py
+      - run: |
+          git config --local user.email "bot@github.com"
+          git config --local user.name "Bot"
+          git add TWTV.m3u
+          git commit -m "Auto sync" || exit 0
+          git push
