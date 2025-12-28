@@ -934,7 +934,7 @@ http://139.214.176.195:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid
 https://iptv.catvod.com/live.php?id=CHC%E5%8A%A8%E4%BD%9C%E7%94%B5%E5%BD%B1%E5%8F%B0
 
 #EXTINF:-1 tvg-name="SCTV峨嵋电影" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan8.png" group-title="电影频道",峨嵋电影
-http://175.153.235.37:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="凤凰电影" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix4.png" group-title="电影频道",凤凰电影
 https://stream1.freetv.fun/feng-huang-dian-ying-3.m3u8
@@ -992,22 +992,22 @@ https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1
 
 
 #EXTINF:-1 tvg-name="SCTV新闻" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan1.png" group-title="四川频道",四川新闻
-http://175.153.235.37:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1044_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="SCTV国际" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan1.png" group-title="四川频道",四川经济
-http://175.153.235.37:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1049_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="SCTV公共乡村" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan6.png" group-title="四川频道",四川乡村
-http://175.153.235.37:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="SCTV影视文艺" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan4.png" group-title="四川频道",影视文艺
-http://175.153.235.37:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="SCTV妇女儿童" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan5.png" group-title="四川频道",妇女儿童
-http://175.153.235.37:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=0&authid=0
+http://124.161.173.44:9901/tsfile/live/1045_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="SCTV科教" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Sichuan7.png" group-title="四川频道",四川科教
-https://stream1.freetv.fun/8483b24bf58895eb31069caffd4b7f60cd2f49f6be2825507262480da78bd7c3.m3u8
+http://124.161.173.44:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=0&authid=0
 
 #EXTINF:-1 tvg-name="成都新闻" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Chengdu1.png" group-title="四川频道",成都新闻
 https://cdtv-proxy.leixinghuazj.workers.dev/cdtv1.m3u8
@@ -2141,4 +2141,5 @@ https://cdi.ofiii.com/ocean/video/playlist/JgR42ZYWWfs/master.m3u8
 # 更新時間：2025-12-25 17:13:46
 # 更新時間：2025-12-25 17:13:50
 # 更新頻道：7 個
+
 # 保留頻道：683 個
