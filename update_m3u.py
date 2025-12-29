@@ -17,7 +17,7 @@ def clean_name(name):
         name = name.replace(noise, "")
     return name
 
-def check_720p_and_speed(url):
+def check_480p_and_speed(url):
     try:
         if "[" in url: return 9999, 9999
         start = time.time()
