@@ -28,10 +28,10 @@ def check_480p_and_speed(url):
             found_720p = False
             for _ in range(15):
                 line = next(sample).decode('utf-8', errors='ignore').upper()
-                if "1280X720" in line:
-                    found_720p = True
+                if "480X360" in line:
+                    found_480p = True
                     break
-            score = delay - 1000 if found_720p else delay
+            score = delay - 1000 if found_480p else delay
             return score, delay
     except:
         pass
