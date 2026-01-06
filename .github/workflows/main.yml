@@ -1,7 +1,7 @@
 name: IPTV_Auto_Update
 on:
   schedule:
-    - cron: '0 */720 * * *'
+    - cron: '0 */10720 * * *'
   workflow_dispatch:
 jobs:
   update:
