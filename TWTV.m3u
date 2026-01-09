@@ -20,19 +20,19 @@ https://t.freetv.fun/live/cctv4-2.m3u8
 https://t.freetv.fun/live/cctv5-3.m3u8
 
 #EXTINF:-1 tvg-name="CCTV5+ " tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+ 体育赛事
-https://t.freetv.fun/live/cctv5-plus-1.m3u8
+https://t.freetv.fun/live/cctv5-plus-2.m3u8
 
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png"  group-title="央视频道",CCTV6 电影
 https://t.freetv.fun/live/cctv6-2.m3u8
 
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7 国防军事
-https://t.freetv.fun/live/cctv7-3.m3u8
+https://t.freetv.fun/live/cctv7-2.m3u8
 
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8 电视剧
 https://t.freetv.fun/live/cctv8-3.m3u8
 
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9 纪录
-https://t.freetv.fun/live/cctv9-3.m3u8
+https://t.freetv.fun/live/cctv9-1.m3u8
 
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10 科教
 https://t.freetv.fun/live/cctv10-1.m3u8
@@ -53,7 +53,7 @@ https://t.freetv.fun/live/cctv14.m3u8
 https://t.freetv.fun/live/cctv15.m3u8
 
 #EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道",CCTV16 奥林匹克
-https://t.freetv.fun/live/cctv-16hd.m3u8
+https://t.freetv.fun/live/cctv16-3.m3u8
 
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17 农业农村
 https://t.freetv.fun/live/cctv17-1.m3u8
@@ -2173,3 +2173,4 @@ https://cdi.ofiii.com/ocean/video/playlist/e5fR8GcLf6E/master.m3u8
 # 更新頻道：7 個
 
 # 保留頻道：684 個
+
