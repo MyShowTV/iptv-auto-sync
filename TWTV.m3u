@@ -576,11 +576,10 @@ http://123.12.9.105:9901/tsfile/live/1092_1.m3u8?key=txiptv&playlive=1&authid=0
 #==================================================
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
 http://14.21.90.68:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-https://live.catvod.com/iptv.php?id=fct002&token=e1309528dc6e7aae67415f95dec8bb8dd657b379a10743cf19b8bb2ed0a181ee%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
-https://live.catvod.com/iptv.php?id=fctsub&token=4b0c488907ea3cfe0f6347f0af8d94c8c163c9c753fbde6bcb21eafbcdaf3ad9%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lunghuaxiju_twn
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
-https://live.catvod.com/iptv.php?id=fct002&token=e1309528dc6e7aae67415f95dec8bb8dd657b379a10743cf19b8bb2ed0a181ee%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://t.freetv.fun/live/tvb-fei-cui-tai-sg.m3u8
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
 https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=jade_twn
 #EXTINF:-1 tvg-name="经典台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB8.png" group-title="香港频道",TVB经典台
