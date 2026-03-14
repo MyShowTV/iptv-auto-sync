@@ -581,6 +581,8 @@ https://live.catvod.com/iptv.php?id=fct002&token=e1309528dc6e7aae67415f95dec8bb8
 https://live.catvod.com/iptv.php?id=fctsub&token=4b0c488907ea3cfe0f6347f0af8d94c8c163c9c753fbde6bcb21eafbcdaf3ad9%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
 https://live.catvod.com/iptv.php?id=fct002&token=e1309528dc6e7aae67415f95dec8bb8dd657b379a10743cf19b8bb2ed0a181ee%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB1.png" group-title="香港频道",TVB翡翠台
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=jade_twn
 #EXTINF:-1 tvg-name="经典台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB8.png" group-title="香港频道",TVB经典台
 https://live.catvod.com/iptv.php?id=huali02&token=5dd881d02a5323c8dfd2bba22925b55cd23294b1d5eed1db5c2b9a3996098164%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="综艺台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB9.png" group-title="香港频道",TVB综艺台
@@ -589,6 +591,8 @@ https://live.catvod.com/live.php?id=Tvbjade&token=aaa499d878068b00a9297e07c2fbfe
 https://live.catvod.com/iptv.php?id=mzt001&token=5839414fa3a2ae7efc3e6b6dd856873f8cec220ef3993650d2b6141a9bbb52cc%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB2.png" group-title="香港频道",TVB明珠台
 https://live.catvod.com/iptv.php?id=mztsub&token=8cff608441fcfed41a97a017b12c7defaf10167736a8bc7bc4782ec479cca474%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB2.png" group-title="香港频道",TVB明珠台
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=pearl_twn
 #EXTINF:-1 tvg-name="TVBJ1" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB9.png" group-title="香港频道",TVBJ1
 https://live.catvod.com/iptv.php?id=j1na001&token=cab33452dbdbbde5ef273379b7313d9ebbdd7b23b092ac75406daf0a5d93573f%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="TVBJ1" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB9.png" group-title="香港频道",TVBJ1
@@ -647,16 +651,22 @@ https://live.catvod.com/iptv.php?id=phzw01&token=4a4847907f5401cf33bddefba11e09a
 https://live.catvod.com/iptv.php?id=phzw02&token=3a67cb57086688e62cf2574e14f523f33e40520c294022b2ceb499b3da04f3f1%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix1.png" group-title="香港频道",凤凰中文台
 http://27.41.245.32:801/hls/205/index.m3u8
+#EXTINF:-1 tvg-name="凤凰卫视中文台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix1.png" group-title="香港频道",凤凰中文台
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=phoenixtv_hd
 #EXTINF:-1 tvg-name="凤凰卫视资讯" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix2.png" group-title="香港频道",凤凰资讯台
 https://live.catvod.com/iptv.php?id=phzx01&token=eec6763eada058d49398a6b4945b930b932e08f1ef5f5bc3717a7a94ce228332%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="凤凰卫视资讯" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix2.png" group-title="香港频道",凤凰资讯台
 https://live.catvod.com/iptv.php?id=phzx02&token=b0a3ff3a60b108f940542e56c9c284291f069ed7839e914ad52f3f6c62d7e828%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
+#EXTINF:-1 tvg-name="凤凰卫视资讯" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix2.png" group-title="香港频道",凤凰资讯台
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=phoenixinfo_hd
 #EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix3.png" group-title="香港频道",凤凰香港台
 https://t.freetv.fun/live/feng-huang-xiang-gang-sg.m3u8
 #EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix3.png" group-title="香港频道",凤凰香港台
 https://live.catvod.com/iptv.php?id=fhhk01&token=f6bfa4b47a52dc50dc92849a09c930af352586dd29083dba5a2c71b31cadc0e5%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix3.png" group-title="香港频道",凤凰香港台
 http://cdn6.163189.xyz/163189/fhhk
+#EXTINF:-1 tvg-name="凤凰卫视香港台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Phoenix3.png" group-title="香港频道",凤凰香港台
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=hkphoenix_twn
 #EXTINF:-1 tvg-name="PopC" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB14.png" group-title="香港频道",PopC电影
 https://t.freetv.fun/live/popc-2.m3u8
 #EXTINF:-1 tvg-name="Now星影台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/now5.png" group-title="香港频道",Now星影台
@@ -681,6 +691,8 @@ https://live.catvod.com/iptv.php?id=ch8001&token=a864d63c48c46c6069ff38a40ed7629
 https://live.catvod.com/iptv.php?id=chu001&token=e92d07081bbb0ca7432f4dfb0fbf8c0234ae0cdef2f088a16fb00b9b0739d6e8%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="美亚电影台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/meiyady.png" group-title="香港频道",美亚电影台
 http://iptv.4666888.xyz/iptv2A.php?id=30
+#EXTINF:-1 tvg-name="美亚电影台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/meiyady.png" group-title="香港频道",美亚电影
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=meiyamovie_twn
 #EXTINF:-1 tvg-name="黄金华剧台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/now7.png" group-title="香港频道",黄金华剧台
 https://live.catvod.com/iptv.php?id=hjhj&token=e028ea80ee046d1d229c53a54674e2e764d7442337443c3723f7ffa1b349f434%3A1765423896%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="亚洲武侠台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB15.png" group-title="香港频道",亚洲武侠台
@@ -783,6 +795,8 @@ https://tv.iill.top/litv/litv-ftv07&token=082b9b13fc9a332b374b4bbeb3839e098a394d
 http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 tvg-name="中视菁采台" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/BLTV.png" group-title="台湾频道",中视菁采台
 https://tv.iill.top/litv/4gtv-4gtv064&token=082b9b13fc9a332b374b4bbeb3839e098a394ddc0af6cb1cae3e2ab2272a8fe3
+#EXTINF:-1 tvg-name="龙翔时代" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/BLTV.png" group-title="台湾频道",龙翔时代
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lungxiangtime_twn
 #==================================================
 # 电影频道
 #==================================================
@@ -797,11 +811,11 @@ https://live.catvod.com/iptv.php?id=lhyp01&token=a6289a8e659495990f8fefab6871149
 #EXTINF:-1 tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="电影频道",龍華偶像
 https://live.catvod.com/iptv.php?id=lhox01&token=f2a398c2602718f89d32f7c8a929c515395595953d80d617d32f0eb09147014b%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="电影频道",龍華偶像
-http://breezy-audrie-zspace-7524863c.koyeb.app/vipsir?token=leifeng&id=litv-longturn12
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lunghuaidol_twn
 #EXTINF:-1 tvg-name="龙华戏剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV4.png" group-title="电影频道",龍華戲劇
 https://live.catvod.com/iptv.php?id=lhxj01&token=ab516cd1696cef9689a772193f1c93c7f493c2ccf7a14262d0c4f9a573ec543c%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="龙华戏剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV4.png" group-title="电影频道",龍華戲劇
-https://pxuchylhjchl.us-east-1.clawcloudrun.com/index.m3u8?pid=litv-longturn18&sd=1080&proxy=false
+https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lunghuaxiju_twn
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV7.png" group-title="电影频道",龍華經典
 https://live.catvod.com/iptv.php?id=lhjd01&token=0cb02a940c3ab57aaf3816ae7c2f503c3e045887799031e76d87c0fbfc661bac%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV7.png" group-title="电影频道",龍華經典
