@@ -798,25 +798,25 @@ https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d5735
 #EXTINF:-1 tvg-name="天映经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV9.png" group-title="电影频道",天映经典
 https://t.freetv.fun/live/ccm-a.m3u8
 #EXTINF:-1 tvg-name="龙华卡通" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV9.png" group-title="电影频道",龍華卡通
-https://live.catvod.com/iptv.php?id=lhkt01&token=b8997431523f960d6201bd3d346113d6b47dc685c4df5bd3cced1f43d05d37d3%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/2Id5MsAyhwU/master.m3u8
 #EXTINF:-1 tvg-name="龙华日韩" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV5.png" group-title="电影频道",龍華日韓
-https://live.catvod.com/iptv.php?id=lhrh01&token=7a37d7f4459622498acdc9962f58dad1836df43c353995072ae0e5b82476ef26%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/XUhZT-u3Bd0/master.m3u8
 #EXTINF:-1 tvg-name="龙华洋片" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV2.png" group-title="电影频道",龍華洋片
-https://live.catvod.com/iptv.php?id=lhyp01&token=a6289a8e659495990f8fefab6871149ed1c738f26adfa30b14205f9a3bd8af69%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/JQ_Hy4r7rrU/master.m3u8
 #EXTINF:-1 tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="电影频道",龍華偶像
-https://live.catvod.com/iptv.php?id=lhox01&token=f2a398c2602718f89d32f7c8a929c515395595953d80d617d32f0eb09147014b%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/rdXsyqP6o2w/master.m3u8
 #EXTINF:-1 tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="电影频道",龍華偶像
 https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lunghuaidol_twn
 #EXTINF:-1 tvg-name="龙华戏剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV4.png" group-title="电影频道",龍華戲劇
-https://live.catvod.com/iptv.php?id=lhxj01&token=ab516cd1696cef9689a772193f1c93c7f493c2ccf7a14262d0c4f9a573ec543c%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/ADm8vuxYz14/master.m3u8
 #EXTINF:-1 tvg-name="龙华戏剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV4.png" group-title="电影频道",龍華戲劇
 https://live.catvod.com/live.php?token=f6556e9d74e6f1d928f3051a2170f59f29e1d573521d5e39b3b7c1dcc5c1ddeb&id=lunghuaxiju_twn
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV7.png" group-title="电影频道",龍華經典
-https://live.catvod.com/iptv.php?id=lhjd01&token=0cb02a940c3ab57aaf3816ae7c2f503c3e045887799031e76d87c0fbfc661bac%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/ojlDVERrVUM/master.m3u8
 #EXTINF:-1 tvg-name="龙华经典" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV7.png" group-title="电影频道",龍華經典
 https://pxuchylhjchl.us-east-1.clawcloudrun.com/index.m3u8?pid=litv-longturn21&sd=1080&proxy=false
 #EXTINF:-1 tvg-name="龙华电影" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV1.png" group-title="电影频道",龍華電影
-https://live.catvod.com/iptv.php?id=lhdy01&token=90b6291025e4104ae3d52d2ba43d0fff3763de440c488e3e52a1ef29b6f286bd%3A1766476101%3AMTg1LjIyMC4yMzYuNA%3D%3D
+https://cdi.ofiii.com/ocean/video/playlist/1F687wUZP7Y/master.m3u8
 #EXTINF:-1 tvg-name="龙华电影" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV1.png" group-title="电影频道",龍華電影
 https://pxuchylhjchl.us-east-1.clawcloudrun.com/index.m3u8?pid=litv-longturn03&sd=1080&proxy=false
 #EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://live.fanmingming.cn/tv/星空卫视.png" group-title="电影频道",星空卫视
